@@ -11,7 +11,7 @@ public class RemoveDuplicates {
 
 		for (int i = 0; i < change.length; i++) {
 			for (int j = i+1; j < change.length; j++) {
-				if(change[i].equalsIgnoreCase(change[j]))
+				if(change[i].equals(change[j]))
 					count++;
 				else 
 					continue;
